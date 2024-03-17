@@ -1,0 +1,10 @@
+.search-box-body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 800px;
+    width: calc(100% - 30px);
+    margin: 15px;
+}

@@ -1,0 +1,55 @@
+.list-user-body{
+    width: calc(100% - 30px);
+    margin: 15px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 15px
+}
+
+
+.list-user-body > table {
+    border-collapse: collapse;
+    border-spacing: 3px;
+    width: 100%;
+}
+
+.list-user-body > table > tr > td{
+    padding: 5px 0px;
+}
+
+.list-user-body > table > tr:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+.user-item-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px;
+}
+
+.user-item-btn > i{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #198754;
+    cursor: pointer;
+    transition: all 100ms;
+}
+
+.user-item-btn > i:hover{
+    scale: 1.5;
+}
+
+
+/* ---- other style in libs: */
+.ol-layer > canvas{
+    border-radius: 15px !important;
+}
+.highcharts-credits{
+    display: none;
+}
+text{
+    font-family: es;
+}

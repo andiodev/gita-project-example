@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "es";
+    src: url("./fonts/estedad.woff2") format("woff2-variations"),
+        url("./fonts/estedad.woff2") format("woff2");
+    font-display: fallback;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    background-color: #ebeff2;
+    margin: 0;
+    font-family: 'es' ,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: rtl;
+}
+div{
+    /* Hide scrollbar for Firefox */
+    scrollbar-width: none;
+    /* Hide scrollbar for Edge */
+    -ms-overflow-style: none;
+}
+div::-webkit-scrollbar {
+    display: none;
+}
